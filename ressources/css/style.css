@@ -74,7 +74,7 @@ nav>ul::after{
 nav a{
   display: inline-block;
   text-decoration: none;
-  color: red;
+
 }
 
 nav>ul>li>a{
