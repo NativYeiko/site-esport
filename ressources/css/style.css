@@ -18,10 +18,14 @@ body {
 ********Header************
 \************************/
 .header{
-  /*background-image: url(ressources/images/Esport.2.jpg);*/
-  background: red;
-  height: 300px;
-  width: 300px
+  background-image: url(../images/Esport.2.jpg);
+  /*background-color: red;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-style: outset;
+  border-bottom-color: blue;
+  border-left: blue;
 }
 
 /**************************
@@ -29,6 +33,10 @@ body {
 **************************/
 
 /* <-- depart pour balise <ul></ul> --> */
+.menu-acceuil{
+  color
+}
+
 nav>ul{
   margin: 0px;
   padding: 0px;
@@ -49,7 +57,7 @@ nav li{
 
 nav{
   width: 100%;
-  background-color: black;
+  background-color: red;
 }
 
 nav>ul>li{
@@ -66,11 +74,12 @@ nav>ul::after{
 nav a{
   display: inline-block;
   text-decoration: none;
+  color: red;
 }
 
 nav>ul>li>a{
   padding: 20px 30px;
-  color: #FFFFFF;
+  color: red;
 }
 
 .stycky{
@@ -80,6 +89,7 @@ nav>ul>li>a{
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 2px 2px #eee;
+
 }
 .stycky
 
