@@ -63,6 +63,16 @@ nav>ul>li>a{
   color: #FFF;
 }
 
+.stycky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 2px #eee;
+}
+.stycky
+
 .submenu{
   display:  none;
 }
