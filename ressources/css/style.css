@@ -258,6 +258,7 @@ img {
   color: #FFFFFF;
   font-size: 20px;
   padding: 35px 0;
+  
 }
 
 #footer a {
@@ -277,9 +278,9 @@ I**********************************************I
   background-color: #blue;
 }
 .formulaire{
-  background: #870000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #870000, #190a05); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #870000, #190a05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-decoration-color: white;
 }
 .font-formulaire{
@@ -360,3 +361,24 @@ button {
      que celui entre les étiquettes et les champs textuels */
   margin-left: .5em;
 }
+
+.input-form{
+  background: #acb6e5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #acb6e5, #86fde8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #acb6e5, #86fde8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+/****************************************\
+*******Fin Formulaire de Contact**********
+\****************************************/

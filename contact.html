@@ -27,11 +27,20 @@
       <form class="formulaire" action="/ma-page-de-traitem" method="post">
         <div>
           <label for="nom">Votre nom :</label>
-          <input type="text" id="nom" name="user_name" placeholder="Votre prénom" maxlength="30"/>
+          <input type="text"  class="input-form"id="nom" name="user_name" placeholder="Votre prénom" maxlength="30"value="Ici votre nom"/>
+          <script>
+            var text = document.getElementById('text');
+            text.addEventListener('focus', function(e) {
+              e.target.value = "Ecriver votre Nom";
+            });
+            text.addEventListener('blur', function(e) {
+              e.target.value = "Ici votre nom";
+            });
+          </script>
         </div>
         <div>
           <label for="courriel">Votre email :</label>
-          <input type="email" id="courriel" name="user_email"placeholder="Ici votre email" value="Ici votre email" maxlength="30" />
+          <input class="input-form"type="email" id="courriel" name="user_email"placeholder="Ici votre email" value="Ici votre email" maxlength="30" />
           <script>
             var text = document.getElementById('text');
             text.addEventListener('focus', function(e) {
@@ -45,7 +54,7 @@
         <div>
             <label for="Qui souhaiter vous contacter">Qui souhaiter vous contacter :</label>
             <!---  <input type="text" name="Qui souhaiter vous contacter" id="Qui souhaiter vous contacter" placeholder="Ex : service-mobile" size="30" maxlength="10"/> -->
-            <select name="choix" required>
+            <select class="input-form" name="choix" required>
               <option value="Mobile" >Service Web</option>
               <option value="Webmail">Service actualité</option>
               <option value="informatique" >Service Esport</option>
@@ -56,11 +65,20 @@
         <div>
           <label for="Voulez vous recevoir notre newletter">Voulez vous recevoir notre newletter :</label>
           <!--- <input type="text" name="Voulez vous recevoir notre newletter" id="Voulez vous recevoir notre newletter" placeholder="" size="30" maxlength="10"/>  -->
-          <input type="radio" id="jojo" checked>Oui je m'abonne
+          <input class="input-form" type="radio" id="jojo" checked>Oui je m'abonne
         </div>
         <div>
           <label for="message">Message :</label>
-          <textarea id="message" name="user_message" placeholder="Limité a 70 caractéres" maxlength="70"></textarea>
+          <textarea class="input-form" id="message" name="user_message" placeholder="Limité a 70 caractéres" maxlength="70" value="Ici votre message"></textarea>
+          <script>
+            var text = document.getElementById('text');
+            text.addEventListener('focus', function(e) {
+              e.target.value = "Ecriver votre message";
+            });
+            text.addEventListener('blur', function(e) {
+              e.target.value = "Ici votre message";
+            });
+          </script>
         </div>
         <div class="button">
           <button type="submit">Envoyer votre message</button>
@@ -68,6 +86,7 @@
         </div>
       </form>
   </section>
+  <!--- Footer --->
   <footer id="footer">
     <div class="container">
       <div class="text-center">
