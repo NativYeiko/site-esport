@@ -13,6 +13,13 @@ body {
   background: -webkit-linear-gradient(to right, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/*******HTML LCS NA****/
+html-lcs-na{
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 /************************\
 ********Header************
@@ -24,7 +31,8 @@ body {
   background-size: cover;
   height: 500px;
   border-style: outset;
-  border-bottom-color: blue;
+  border-bottom-color: #780206, #061161);
+  margin-bottom: 20px;
   border-left: blue;
 }
 
@@ -260,7 +268,9 @@ img {
     z-index: 2;
 }
 
-
+/***********************\
+*****LCS NA Tableau******
+\***********************/
 
 
 
@@ -276,9 +286,12 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
+  margin-top: 20px;
   font-size: 20px;
   padding: 35px 0;
-
+  margin-top: 20px;
+  border-top-width: : 5px;
+  border-top-color: red;
 }
 
 #footer a {
